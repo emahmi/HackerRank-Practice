@@ -4,7 +4,6 @@ using System.IO;
 
 class Solution
 {
-
     // Complete the twoStrings function below.
     static string twoStrings(string s1, string s2)
     {
@@ -35,14 +34,10 @@ class Solution
         for (int qItr = 0; qItr < q; qItr++)
         {
             string s1 = Console.ReadLine();
-
             string s2 = Console.ReadLine();
-
             string result = twoStrings(s1, s2);
-
             textWriter.WriteLine(result);
         }
-
         textWriter.Flush();
         textWriter.Close();
     }
