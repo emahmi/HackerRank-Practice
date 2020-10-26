@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 class Solution
 {
-
     // Complete the checkMagazine function below.
     static void checkMagazine(string[] magazine, string[] note)
     {
@@ -35,10 +34,7 @@ class Solution
                 magazineDict[note[j]]--;
             }
         }
-
         Console.WriteLine("Yes");
-
-
     }
 
     static void Main(string[] args)
