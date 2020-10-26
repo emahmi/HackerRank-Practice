@@ -41,9 +41,6 @@ namespace Count_Triplets
             }
 
             Console.WriteLine(res);
-
-
-
         }
     }
 }
